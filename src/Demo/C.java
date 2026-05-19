@@ -6,6 +6,6 @@ public class C extends B{
    C(){
        super() ;
        c = 2 ;
-       System.out.println("this is C class constructor :" + super.a);
+       System.out.println("this is C class constructor and a = " + super.a);
    }
 }
